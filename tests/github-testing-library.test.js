@@ -52,4 +52,10 @@ describe("GitHub", ()=> {
     await $repoLink.click();
     await expect(page).toHaveText("#readme h1", "Playwright");
   })
+
+  it("should contain a tab nav as expected", async () => {
+    const $tabNav = await page.$('.js-repo-nav')
+    const tabNavHtml = await $tabNav.innerHTML()
+    expect(tabNavHtml).toMatchSnapshot()
+  })
 })

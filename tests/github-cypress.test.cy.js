@@ -1,5 +1,5 @@
 /**
- * Using Cypress with testing-library
+ * Using CYPRESS-TESTING-LIBRARY
  *
  * CYPRESS ...................... https://docs.cypress.io/api
  * CYPRESS-TESTING-LIBRARY ...... https://github.com/testing-library/cypress-testing-library
