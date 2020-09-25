@@ -1,0 +1,7 @@
+{
+  "testFiles": "**/*.test.cy.js",
+  "integrationFolder": "tests",
+  "viewportHeight": 800,
+  "viewportWidth": 1280,
+  "video": false
+}

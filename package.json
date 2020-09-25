@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-cypress": "cypress run",
+    "open-cypress": "cypress open"
   },
   "dependencies": {
+    "@testing-library/cypress": "^7.0.1",
     "@testing-library/jest-dom": "^5.11.4",
+    "cypress": "^5.2.0",
     "jest": "^26.4.2",
     "jest-playwright-preset": "^1.3.1",
     "playwright": "^1.4.1",
